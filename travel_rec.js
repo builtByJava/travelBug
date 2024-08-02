@@ -1,4 +1,4 @@
-const apiURL = "./travel_recommendation_api.json";
+const apiURL = "travel_rec_api.json";
 const mysearchBtn = document.getElementById("searchBtn");
 const myclearBtn = document.getElementById("clearBtn");
 const searchInput = document.getElementById("search-interface");
