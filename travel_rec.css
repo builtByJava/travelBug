@@ -1,0 +1,163 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1596811311317-c948dd4382dd?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  background-color: transparent;
+  color: white;
+}
+
+.nav-links,
+.nav-links a {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+#search-interface {
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  width: 12%;
+}
+
+#searchBtn,
+#clearBtn {
+  background-color: white;
+  border: 0.1rem solid black;
+  padding: 0.5rem 0.5rem;
+  margin-right: 0.2rem;
+  border-radius: 0.2rem;
+  color: black;
+}
+#resultsPanel {
+  float: right;
+  padding: 4rem 4rem;
+  border-radius: 0.2rem;
+  position: relative;
+}
+
+#resultsPanel div {
+  background-color: transparent;
+  margin-bottom: 2rem;
+  border: 0.1rem solid black;
+  border-radius: 0.2rem;
+  color: white;
+  background-color: transparent;
+}
+
+#resultsPanel div h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+#welcome {
+  color: white;
+  font-size: 3rem;
+  padding-left: 15rem;
+  padding-top: 10rem;
+}
+
+#welcome button {
+  background-color: transparent;
+  color: white;
+  border: 0.2 solid white;
+  border-radius: 0.2rem;
+  padding: 1rem 1rem;
+}
+
+#social-media-main {
+  color: white;
+  font-size: 2rem;
+  padding-left: 0.8rem;
+  list-style: none;
+  line-height: 14rem;
+  position: absolute;
+  top: 10rem;
+}
+
+/*about us page*/
+
+#about_us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;
+  padding: 2rem 2rem;
+  border-radius: 2rem;
+}
+#about_us h2,
+#contact-us-h2 {
+  color: white;
+  font-size: 4rem;
+}
+
+#about_us p {
+  color: white;
+  font-size: 2rem;
+}
+
+#our_team {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.team_member {
+  border: 0.1rem solid gray;
+  margin-right: 2rem;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#summary {
+  font-size: 1rem;
+  background-color: lightgray;
+  padding: 2rem 2rem;
+  color: black;
+}
+
+/*contact us page*/
+#contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  margin: auto auto;
+  border: 0.1rem solid white;
+  padding: 2rem 2rem;
+  border-radius: 3rem;
+}
+
+#contact-form input,
+label,
+textarea {
+  font-size: 2rem;
+  background-color: transparent;
+  color: white;
+}
+
+#contact-form button {
+  background-color: transparent;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
